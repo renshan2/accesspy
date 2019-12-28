@@ -1,0 +1,18 @@
+# new and update github repo
+
+goto github.com
+click on clone and copy: 
+    https://github.com/renshan2/accesspy.git
+
+open command on your local machine:
+    cd <working folder/directory>
+    git clone https://github.com/renshan2/accesspy.git
+    # get new files
+    git pull
+    # update files
+    git add .
+    git commit -m "<new title for this updates>"
+    git push
+    
+    
+    
