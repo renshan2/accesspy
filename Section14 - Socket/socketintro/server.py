@@ -10,7 +10,7 @@ with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
 
         print('Server is up. Listening for connections...')
 
-        client.address = s.accept()
+        client, address = s.accept()
         print('Connection to', address, 'estabilished\n')
         print('Client object:', client, '\n')
 
