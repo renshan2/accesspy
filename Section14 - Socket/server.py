@@ -7,10 +7,10 @@ s.listen(5)
 
 print('Server is up. Listening for connections...')
 
-client.address = s.accept()
+clientsocket, address = s.accept()
 print('Connection to', address, 'estabilished\n')
-print('Client object:', client, '\n')
+print('Client object:', clientsocket, '\n')
 
-client.send(bytes('Hello! Welcome to socket programming.', 'utf-8'))
+clientsocket.send(bytes('Hello! Welcome to socket programming.', 'utf-8'))
 
 s.close()
