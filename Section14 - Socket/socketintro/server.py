@@ -3,8 +3,8 @@ import socket
 with socket.socket(socket.AF_INET,socket.SOCK_STREAM) as s:
 
     s.bind((socket.gethostname(),4571))
-
-    #s.settimeout(10)
+    s.settimeout(5)
+    
     try: 
         s.listen(5)
 
