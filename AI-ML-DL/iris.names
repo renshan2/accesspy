@@ -1,5 +1,8 @@
+0. link: https://www.britannica.com/science/sepal
+
 1. Title: Iris Plants Database
 	Updated Sept 21 by C.Blake - Added discrepency information
+   Updated June 20, 2020 - Added a link to the image on line 0
 
 2. Sources:
      (a) Creator: R.A. Fisher
@@ -46,6 +49,7 @@
 5. Number of Instances: 150 (50 in each of three classes)
 
 6. Number of Attributes: 4 numeric, predictive attributes and the class
+
 
 7. Attribute Information:
    1. sepal length in cm
